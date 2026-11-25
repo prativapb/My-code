@@ -50,6 +50,8 @@ Verify the service:
 
 kubectl get svc
 
+kubectl get svc -w
+
 ✅ Step 3: Enable Metrics Server (If Not Already Installed)
 GKE usually comes with the Metrics Server pre-installed, but you can install it manually if needed:
 
